@@ -1,41 +1,41 @@
-#################
-## Misc
-#################
-**/.DS_Store
-nbproject
-manifest.mf
-build.xml
-node_modules/*
+*.js
+index.d.ts
+
+# compiled output
+/demo/dist
+/tmp
+
+# dependencies
+/node_modules
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+
+# IDE - VSCode
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage/*
+/libpeerconnection.log
 npm-debug.log
-src/*.js
-tests/*.js
-angular2-font-awesome.js
-index.js
-dist/
-!config/*
-!karma.conf.js
-!webpack.config.js
-*.map
-*.d.ts
-!make.js
-!examples/**/*.js
-coverage
-*.metadata.json
-bundles
+testem.log
+/typings
 
-############
-## Windows
-############
+# e2e
+/e2e/*.js
+/e2e/*.map
 
-# Windows image file caches
-Thumbs.db
-
-# Folder config file
-Desktop.ini
-
-############
-## Mac
-############
-
-# Mac crap
+#System Files
 .DS_Store
+Thumbs.db
