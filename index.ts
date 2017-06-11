@@ -16,4 +16,4 @@ import { AngularFontAwesomeComponent } from './lib/angular-font-awesome.componen
 })
 export class AngularFontAwesomeModule { }
 
-export * from './lib/angular-font-awesome.component';
+// export * from './lib/angular-font-awesome.component';
